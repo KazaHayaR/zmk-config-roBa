@@ -111,8 +111,8 @@
             bindings = <
 &none      &kp F7  &kp F8  &kp F9     &kp F11                                               &kp N7        &kp N8        &kp N9        &kp N0          &kp COLON
 &kp LC(A)  &kp F4  &kp F5  &kp LC(C)  &kp LC(X)  &kt LEFT_BRACE       &kp ASTERISK          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp UNDERSCORE  &kp MINUS
-&none      &kp F1  &kp F2  &kp LC(V)  &kp LS(Z)  &kp RIGHT_BRACE      &kp LEFT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD      &kp DOUBLE_QUOTES
-&trans     &trans  &trans  &trans     &trans     &trans               &trans                &trans                                                    &kp SLASH
+&kt LSHFT  &kp F1  &kp F2  &kp LC(V)  &kp LS(Z)  &kp RIGHT_BRACE      &kp LEFT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD      &kp DOUBLE_QUOTES
+&trans     &trans  &trans  &trans     &trans     &trans               &kt DEL               &trans                                                    &kp SLASH
             >;
         };
 
@@ -167,10 +167,10 @@
 
         mac-command-num {
             bindings = <
-&none      &kp F7  &kp F8  &kp F9     &kp F11                                               &kp N7        &kp N8        &kp N9        &kp N0          &kp COLON
-&kp LC(A)  &kp F4  &kp F5  &kp LC(C)  &kp LC(X)  &kt LEFT_BRACE       &kp ASTERISK          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp UNDERSCORE  &kp MINUS
-&none      &kp F1  &kp F2  &kp LC(V)  &kp LS(Z)  &kp RIGHT_BRACE      &kp LEFT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD      &kp DOUBLE_QUOTES
-&trans     &trans  &trans  &trans     &trans     &trans               &trans                &trans                                                    &kp SLASH
+&none           &kp F7  &kp F8  &kp F9     &kp F11                                               &kp N7        &kp N8        &kp N9        &kp N0          &kp COLON
+&kp LC(A)       &kp F4  &kp F5  &kp LC(C)  &kp LC(X)  &kt LEFT_BRACE       &kp ASTERISK          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp UNDERSCORE  &kp MINUS
+&kt LEFT_SHIFT  &kp F1  &kp F2  &kp LC(V)  &kp LS(Z)  &kp RIGHT_BRACE      &kp LEFT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD      &kp DOUBLE_QUOTES
+&trans          &trans  &trans  &trans     &trans     &trans               &kt DEL               &trans                                                    &kp SLASH
             >;
         };
     };

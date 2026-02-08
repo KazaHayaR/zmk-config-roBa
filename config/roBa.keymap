@@ -83,7 +83,7 @@
 &lt 6 Q           &kp W         &kp E         &kp R             &kp T                                          &kp Y             &kp U  &lt 5 I    &kp O    &lt 5 P
 &kp A             &kp S         &kp D         &kp F             &kp G        &kp LS(LG(S))      &kp MINUS      &kp H             &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &kp SQT            &kp SEMICOLON  &kp N             &kp M  &kp COMMA  &kp DOT  &kp PLUS
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 LANGUAGE_2  &lt 2 SPACE  &lt 3 ENTER        &kp BACKSPACE  &lt 3 LANGUAGE_1                             &kp RIGHT_SHIFT
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 LANGUAGE_2  &lt 2 SPACE  &lt 3 ENTER        &kp BACKSPACE  &lt 1 LANGUAGE_1                             &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&kp EXCLAMATION  &kp QUESTION  &kp HASH  &kp DOLLAR  &kp PERCENT                      &kp LS(LBKT)  &kp LS(N8)  &kp LEFT_PARENTHESIS  &kp INTERNATIONAL_1  &kp LCTRL
-&kt TAB          &trans        &trans    &trans      &trans       &trans      &kp F7  &none         &none       &kp SEMICOLON         &kp SQT              &kp RBKT
-&trans           &trans        &trans    &trans      &trans       &trans      &kp F8  &trans        &none       &kp LESS_THAN         &kp GREATER_THAN     &kp AT_SIGN
-&trans           &trans        &trans    &trans      &trans       &trans      &trans  &trans                                                               &kp NON_US_BACKSLASH
+&kp EXCLAMATION  &kp QUESTION  &kp HASH  &kp DOLLAR  &kp PERCENT                      &kp LS(LBKT)  &kp LS(N8)  &kp LEFT_PARENTHESIS  &kp INTERNATIONAL_1  &kp EQUAL
+&kt TAB          &trans        &trans    &trans      &trans       &trans      &kp F7  &none         &kp SQT     &kp SEMICOLON         &kp LBKT             &kp RBKT
+&trans           &trans        &trans    &trans      &trans       &trans      &kp F8  &trans        &none       &kp LESS_THAN         &kp GREATER_THAN     &kp BSLH
+&trans           &trans        &trans    &trans      &trans       &trans      &trans  &trans                                                               &kp INTERNATIONAL_1
             >;
         };
 
@@ -102,7 +102,7 @@
             bindings = <
 &none      &kp F7  &kp F8  &kp F9     &kp F11                                               &kp N7        &kp N8        &kp N9        &kp N0          &kp COLON
 &kp LC(A)  &kp F4  &kp F5  &kp LC(C)  &kp LC(X)  &kt LEFT_BRACE       &kp ASTERISK          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp UNDERSCORE  &kp MINUS
-&none      &kp F1  &kp F2  &kp LC(V)  &none      &kp RIGHT_BRACE      &kp LEFT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD      &kp DOUBLE_QUOTES
+&none      &kp F1  &kp F2  &kp LC(V)  &kp LS(Z)  &kp RIGHT_BRACE      &kp LEFT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD      &kp DOUBLE_QUOTES
 &trans     &trans  &trans  &trans     &trans     &trans               &trans                &trans                                                    &kp SLASH
             >;
         };

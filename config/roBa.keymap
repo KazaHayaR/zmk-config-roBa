@@ -111,10 +111,10 @@
 
         FUNCTION {
             bindings = <
-&kp EXCLAMATION  &kp QUESTION  &kp HASH           &kp DOLLAR            &kp LS(N6)                      &kp LS(LBKT)  &kp LS(N8)  &kp LEFT_PARENTHESIS  &kp MINUS         &kp EQUAL
-&kt TAB          &trans        &kp RIGHT_BRACKET  &kp BSLH              &trans      &trans      &kp F7  &none         &kp SQT     &kp SEMICOLON         &kp LBKT          &kp RBKT
-&trans           &trans        &kp LS(N8)         &kp LEFT_PARENTHESIS  &trans      &trans      &kp F8  &trans        &none       &kp LESS_THAN         &kp GREATER_THAN  &kp BSLH
-&trans           &trans        &trans             &trans                &trans      &trans      &trans  &trans                                                            &kp LS(INTERNATIONAL_1)
+&kp EXCLAMATION  &kp QUESTION  &kp HASH           &kp DOLLAR            &kp LS(SLASH)                      &kp LS(LBKT)  &kp LS(N8)  &kp LEFT_PARENTHESIS  &kp MINUS         &kp EQUAL
+&kt TAB          &trans        &kp RIGHT_BRACKET  &kp BSLH              &trans         &trans      &kp F7  &none         &kp SQT     &kp SEMICOLON         &kp LBKT          &kp RBKT
+&trans           &trans        &kp LS(N8)         &kp LEFT_PARENTHESIS  &trans         &trans      &kp F8  &trans        &none       &kp LESS_THAN         &kp GREATER_THAN  &kp BSLH
+&trans           &trans        &trans             &trans                &trans         &trans      &trans  &trans                                                            &kp LS(INTERNATIONAL_1)
             >;
         };
 

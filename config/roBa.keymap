@@ -39,11 +39,6 @@
             key-positions = <12 13>;
         };
 
-        muhennkann {
-            bindings = <&btsetwin INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
         double_quotation {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
@@ -89,10 +84,10 @@
 
         default_layer {
             bindings = <
-&lt 7 Q           &kp W         &kp E         &kp R        &kp T                                          &kp Y        &kp U  &lt 5 I    &kp O    &lt 5 P
-&kp A             &kp S         &kp D         &kp F        &kp G        &kp LS(LG(S))      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp B        &kp SQT            &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp PLUS
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 LANG2  &lt 3 SPACE  &lt 6 ENTER        &kp BACKSPACE  &lt 2 LANG1                             &kp RIGHT_SHIFT
+&lt 8 Q           &kp W         &kp E         &kp R        &kp T                                        &kp Y        &kp U  &lt 5 I    &kp O    &lt 5 P
+&kp A             &kp S         &kp D         &kp F        &kp G        &trans           &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp B        &kp SQT          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp PLUS
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 LANG2  &lt 3 SPACE  &lt 6 ENTER      &kp BACKSPACE  &lt 2 LANG1                             &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -100,10 +95,10 @@
 
         mac_def {
             bindings = <
-&lt 7 Q           &kp W             &kp E         &kp R             &kp T                                        &kp Y             &kp U  &lt 5 I    &kp O    &lt 5 P
-&kp A             &kp S             &kp D         &kp F             &kp G        &none            &kp MINUS      &kp H             &kp J  &kp K      &kp L    &kp MINUS
+&lt 8 Q           &kp W             &kp E         &kp R             &kp T                                        &kp Y             &kp U  &lt 5 I    &kp O    &lt 5 P
+&kp A             &kp S             &kp D         &kp F             &kp G        &trans           &kp MINUS      &kp H             &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X             &kp C         &kp V             &kp B        &kp SQT          &kp SEMICOLON  &kp N             &kp M  &kp COMMA  &kp DOT  &kp PLUS
-&kp LEFT_GUI      &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 2 LANGUAGE_2  &lt 8 SPACE  &lt 6 ENTER      &kp BACKSPACE  &lt 2 LANGUAGE_1                             &kp RIGHT_SHIFT
+&kp LEFT_GUI      &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 2 LANGUAGE_2  &lt 7 SPACE  &lt 6 ENTER      &kp BACKSPACE  &lt 2 LANGUAGE_1                             &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -156,21 +151,21 @@
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
-        layer_6 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                      &btsetwin  &btsetmac  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans     &trans     &trans        &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans     &trans     &trans        &trans        &bt BT_CLR
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                            &bt BT_CLR_ALL
-            >;
-        };
-
         mac-num-commnd {
             bindings = <
 &none      &kp F7  &kp F8  &kp F9          &kp F11                                                    &kp N7        &kp N8        &kp N9        &kp N0          &kp COLON
 &kp LG(A)  &kp F4  &kp F5  &kp LG(C)       &kp LG(X)  &kt LEFT_BRACE            &kp ASTERISK          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp UNDERSCORE  &kp MINUS
 &kt LSHFT  &kp F1  &kp F2  &kp LG(V)       &kp LG(Z)  &kp RIGHT_BRACE           &kp LEFT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD      &kp DOUBLE_QUOTES
 &trans     &trans  &trans  &kt LG(LS(N5))  &trans     &kt LS(LG(NUMBER_4))      &kt DEL               &trans                                                    &kp SLASH
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &btsetwin  &btsetmac  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans     &trans     &trans        &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans     &trans     &trans        &trans        &bt BT_CLR
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                            &bt BT_CLR_ALL
             >;
         };
     };

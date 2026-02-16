@@ -86,7 +86,7 @@
             bindings = <
 &kp EXCLAMATION  &kp QUESTION  &kp HASH           &kp DOLLAR            &kp SLASH                      &kp LS(LBKT)  &kp LS(N8)  &kp LEFT_PARENTHESIS  &kp MINUS         &kp EQUAL
 &kp TAB          &trans        &kp RIGHT_BRACKET  &kp BSLH              &trans     &trans      &kp F7  &trans        &kp SQT     &kp SEMICOLON         &kp LBKT          &kp RBKT
-&trans           &trans        &kp LS(N8)         &kp LEFT_PARENTHESIS  &trans     &trans      &kp F8  &trans        &trans      &kp LESS_THAN         &kp GREATER_THAN  &kp BSLH
+&kp LEFT_SHIFT   &trans        &kp LS(N8)         &kp LEFT_PARENTHESIS  &trans     &trans      &kp F8  &trans        &trans      &kp LESS_THAN         &kp GREATER_THAN  &kp BSLH
 &trans           &trans        &trans             &trans                &trans     &trans      &trans  &trans                                                            &kp LS(INTERNATIONAL_1)
             >;
         };
